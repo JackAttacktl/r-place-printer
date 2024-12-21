@@ -216,12 +216,36 @@ ffaf
 faff
 afff
 aaaa
+""",
+    ":": """
+ffff
+faaf
+faaf
+ffff
+faaf
+faaf
+""",
+    "/": """
+ffff
+fffa
+ffaf
+faff
+afff
+ffff
+""",
+    ":": """
+ffff
+ffff
+ffff
+ffff
+faaf
+faaf
 """
 }
 
 line_count = 6
 
-text = "PORNOGRAPHY"
+text = "HTTPS://NEEDCOOLERSHOES.COM"
 
 fill_letter = "f"
 
