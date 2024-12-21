@@ -10,12 +10,12 @@ fff
 fff
 """,
     "A": """
-faaf
-affa
-aaaa
-affa
-affa
-affa
+ffaff
+fafaf
+afffa
+aaaaa
+afffa
+afffa
 """,
     "B": """
 aaaf
@@ -34,12 +34,12 @@ afff
 faaa
 """,
     "D": """
-aaff
-afaf
+aaaf
 affa
 affa
-afaf
-aaff
+affa
+affa
+aaaf
 """,
     "E": """
 aaaa
@@ -122,12 +122,12 @@ affa
 affa
 """,
     "O": """
-faaf
-affa
-affa
-affa
-affa
-faaf
+faaaaf
+affffa
+affffa
+affffa
+affffa
+faaaaf
 """,
     "P": """
 aaaa
@@ -162,56 +162,56 @@ affa
 faaf
 """,
     "T": """
-aaaa
-faff
-faff
-faff
-faff
-faff
+aaaaa
+ffaff
+ffaff
+ffaff
+ffaff
+ffaff
 """,
     "U": """
-affa
-affa
-affa
-affa
-affa
-faaf
+afffa
+afffa
+afffa
+afffa
+afffa
+faaaf
 """,
     "V": """
-affa
-affa
-affa
-affa
-faaf
-faaf
+fafffaf
+fafffaf
+ffafaff
+ffafaff
+fffafff
+fffafff
 """,
     "W": """
-affa
-affa
-affa
-affa
-aaaa
-affa
+afffa
+afffa
+afffa
+afafa
+aafaa
+afffa
 """,
     "X": """
-affa
-affa
-faaf
-faaf
-affa
-affa
+affffa
+affffa
+faaaaf
+faaaaf
+affffa
+affffa
 """,
     "Y": """
-affa
-affa
-affa
-faaf
-faaf
-faaf
+afffa
+afffa
+fafaf
+ffaff
+ffaff
+ffaff
 """,
     "Z": """
 aaaa
-ffaf
+fffa
 ffaf
 faff
 afff
@@ -226,12 +226,12 @@ faaf
 faaf
 """,
     "/": """
-ffff
-fffa
-ffaf
-faff
-afff
-ffff
+fffaf
+fffaf
+ffaff
+ffaff
+fafff
+fafff
 """,
     ".": """
 ffff
