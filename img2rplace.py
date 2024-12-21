@@ -30,11 +30,17 @@ PALLETE = [
     (87,52,0)
 ]
 
+
+FORCE_SIZE = True
 FORCED_SIZE = (64,64)
 
 FILE_PATH = "C:\\Path\\To\\Spy.webp"
 
-img = Image.open(FILE_PATH).convert("RGBA").resize(FORCED_SIZE)
+img = Image.open(FILE_PATH).convert("RGBA")
+
+if (FORCE_SIZE):
+    img = img.resize(FORCED_SIZE)
+
 px = img.load()
 
 img_str = ""
