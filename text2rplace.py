@@ -158,7 +158,7 @@ faaf
 affa
 faff
 ffaf
-fffa
+affa
 faaf
 """,
     "T": """
