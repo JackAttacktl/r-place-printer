@@ -233,7 +233,7 @@ faff
 afff
 ffff
 """,
-    ":": """
+    ".": """
 ffff
 ffff
 ffff
