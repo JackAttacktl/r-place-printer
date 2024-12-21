@@ -240,26 +240,53 @@ ffff
 ffff
 faaf
 faaf
+""",
+    ",": """
+ffff
+ffff
+ffff
+ffff
+faaf
+faaf
+ffaf
 """
 }
 
-line_count = 6
+text = "A,."
 
-text = "HTTPS://NEEDCOOLERSHOES.COM"
+max_line_count = 0
 
-fill_letter = "f"
-
-lines = ['' for i in range(line_count)]
 for l in text:
     letter_codes = fonts[l][1:][:-1]
     code_lines = letter_codes.split('\n')
+    max_line_count = max(max_line_count,len(code_lines))
+
+fill_letter = "f"
+
+lines = []
+for l in text:
+    letter_codes = fonts[l][1:][:-1]
+    code_lines = letter_codes.split('\n')
+    if (len(lines) < len(code_lines)):
+        for _ in range(len(code_lines) - len(lines)):
+            if (len(lines) > 0):
+                lines.append(fill_letter*len(lines[len(lines)-1]))
+            else:
+                lines.append('')
+
+    max_line_length = 0
     for i,line in enumerate(lines):
-        lines[i] = line + code_lines[i] + fill_letter
+        if (len(code_lines) > i):
+            lines[i] = line + code_lines[i] + fill_letter
+            if (len(code_lines[i]) > max_line_length):
+                max_line_length = len(code_lines[i])
+        else:
+            lines[i] = line + (max_line_length*fill_letter) + fill_letter
 
 final_text = ''
 for line in lines:
     final_text += line + '\n'
 
-print("Height: " + str(line_count))
+print("Height: " + str(max_line_count))
 print("Width: " + str(len(lines[0])))
 print(final_text)
